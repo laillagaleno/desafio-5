@@ -63,7 +63,7 @@
 
 /*==================== Nomes de cima =============================*/
 #name1 {
-  color: #000;
+  color: var(--white);
   font-weight: bold;
   font-size: 50px;
   text-align: center;
@@ -174,7 +174,7 @@ nav a:hover {
 #banner {
   display: flex;
   justify-content: center;
-  background-image: url("./imagens/Capa.jpg");
+  background-image: linear-gradient(45deg, #00003e 0%, #00003e3b 100%), url(./imagens/Capa.jpg);
   background-position: center;
   background-size: cover;
   height: 670px;
