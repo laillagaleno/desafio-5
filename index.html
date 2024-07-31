@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <title>CULTURA MARANHENSE</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="conteudo.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/conteudo.css">
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <img src="/imagens/bandeira.jpg" alt="bandeira do maranhão">
+                <img src="/img/bandeira.jpg" alt="bandeira do maranhão">
                 <p>Cultura <span>Maranhence</span></p>
             </div>
             <div class="menu">
@@ -28,11 +28,11 @@
                     </div>
                     <ul>
                         <li><a href="index.html">Início</a></li>
-                        <li><a href="Culinaria.html">Culinária</a></li>
-                        <li><a href="Festas Populares.html">Festas Populares</a></li>
-                        <li><a href="Artesanato.html">Artesanato</a></li>
-                        <li><a href="PontosTuristicos.html">Pontos Turísticos</a></li>
-                        <li><a href="SobreNós.html">Sobre nós</a></li>
+                        <li><a href="culinaria.html">Culinária</a></li>
+                        <li><a href="festas-populares.html">Festas Populares</a></li>
+                        <li><a href="artesanato.html">Artesanato</a></li>
+                        <li><a href="pontos-turisticos.html">Pontos Turísticos</a></li>
+                        <li><a href="sobre-nos.html">Sobre nós</a></li>
                     </ul>
                 </nav>
             </div>
@@ -43,8 +43,12 @@
         <section id="banner">
             <div class="container column">
                 <div class="banner_headline">
-                    <h2 id="name1">Vem conhecer nosso</h2>
-                    <p id="maranhão1">MARANHÃO</p>
+                    <div class="headline_text">
+                        <h4>Vem conhecer nosso</h4>
+                        <h2>MARANHÃO</h2>
+                    </div>
+
+                    <img src="./img/capa.png" alt="menina conhecendo a cultura maranhense">
                 </div>
 
                 <div class="banner_options">
@@ -78,7 +82,7 @@
             </div>
         </section>
 
-        <section id="geral">
+        <section>
             <div class="container">
                 <section>
                     <div class="widget">
@@ -86,81 +90,8 @@
                             <div class="widget_title_text">Ultimas Notícias</div>
                             <div class="widget_title_bar"></div>
                         </div>
-                        <div class="widget_body flex">
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at">17 JUL 24</div>
+                        <div class="widget_body flex noticias_container">
 
-                                    </div>
-                                    <div class="news_thumb"> <img src="./imagens/familia_menezes.jpg" alt=""></div>
-                                    <div class="news_title">Cortejo só de mulheres em louvor ao Divino Espírito Santo,
-                                        no Museu Casa de Nhozinho
-                                    </div>
-                                    <div class="news_resume">
-                                        A Família Menezes e a Casa de Nhozinho promovem o 2º Cortejo do Divino Espírito
-                                        Santo, nesta quinta-feira (18), às 17h, no Museu Casa de Nhozinho., situado à
-                                        Rua Portugal, na Praia Grande.
-
-                                        Essa segunda edição será a primeira com toque exclusivo para mulheres caixeiras,
-                                        em louvor ao Divino Espírito Santo, realizado pela Família Menezes.
-
-                                    </div>
-                                </a>
-                            </article>
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at"> 17 JUL 24</div>
-                                    </div>
-                                    <div class="news_thumb"> <img src="./imagens/atração_05-18.jpeg" alt=""></div>
-                                    <div class="news_title">Começa hoje o São João do Maranhão na cidade de Cururupu
-                                    </div>
-                                    <div class="news_resume">
-                                        Começa nesta quarta-feira, 17, a programação do Maior São João do Mundo, na
-                                        cidade de Cururupu. De hoje até domingo, passarão pelo palco da Praça do
-                                        Carvalho, dezenas de atrações entre grupos de bumba meu boi, de dança e shows
-                                        musicais. Toda uma estrutura foi montada para receber moradores da cidade e
-                                        circunvizinhanças e proporcionar, não só entretenimento, mas emprego e renda
-                                        para a população.
-                                    </div>
-                                </a>
-                            </article>
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at">17 JUL 24</div>
-                                    </div>
-                                    <div class="news_thumb"> <img src="./imagens/atração_02-12.jpeg" alt=""></div>
-                                    <div class="news_title">O maior São João do mundo começa nesta segunda em Timon
-                                    </div>
-                                    <div class="news_resume">
-                                        A cidade de Timon recebe o São João do Maranhão 2024, o maior São João do mundo.
-                                        Moradores do município e vizinhos vão poder prestigiar a programação recheada de
-                                        atrações locais e nacionais, de hoje (15), até o dia 17 de julho, no espaço
-                                        montado especialmente para receber o público, no estacionamento do Cocais
-                                        Shopping (Av. Piauí, 700, Centro), com programação a partir das 18h. Dentre as
-                                        atrações nacionais estão: Wesley Safadão, Samyra Show e Walkyria Santos.
-                                    </div>
-                                </a>
-                            </article>
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at">1 JUL 24</div>
-                                    </div>
-                                    <div class="news_thumb"> <img src="./imagens/arraial_do_ipem.jpeg" alt=""></div>
-                                    <div class="news_title">Sábado tem programação infantil no Arraial do Ipem</div>
-                                    <div class="news_resume">
-                                        O São João também é dos pequenos. O Arraial do Ipem está com uma programação
-                                        especial para as crianças neste sábado, 13. Além da programação normal, às 16h
-                                        começa o Ipem Infantil com atrações mirins para crianças.
-
-                                        Tem Tambor de Crioula Proteção Mirim, Cacuriá Mirim Rabo de Saia, Banda Mundo
-                                        Fantástico, Barriquinha.
-                                    </div>
-                                </a>
-                            </article>
                         </div>
                     </div>
                 </section>
@@ -168,15 +99,15 @@
                     <div class="widget_body">
 
                         <div class="boxes">
-                            <img src="./imagens/Mobile-Phone-2-icon.png" alt="">
+                            <img src="./img/Mobile-Phone-2-icon.png" alt="">
                             <p>por telefone: <strong>(98)999948974</strong> </p>
                         </div>
                         <div class="boxes">
-                            <img src="./imagens/City-Post-Office-icon.png" alt="">
+                            <img src="./img/City-Post-Office-icon.png" alt="">
                             <p>por email: culturama@gmail.com</p>
                         </div>
                         <div id="last" class="boxes">
-                            <img src="./imagens/Business-Survey-icon.png" alt="">
+                            <img src="./img/Business-Survey-icon.png" alt="">
                             <p>ou <a href="">preencha o fomulario de feedback</a></p>
                         </div>
                     </div>
@@ -186,20 +117,20 @@
         </section>
     </main>
 
-    <footer class="corFooter">
-        <div class="container  flexcolumn">
+    <footer>
+        <div class="container column">
             <div class="footer_menu">
-                <div class="fm1">
+                <div id="fm1">
                     <a href="">
                         <h1>Lailla Galeno</h1>
                     </a>
                 </div>
-                <div class="fm2">
+                <div id="fm2">
                     <a href="">
                         <h1>Felipe Silva</h1>
                     </a>
                 </div>
-                <div class="fm3">
+                <div id="fm3">
                     <a href="">
                         <h1>Miqueias Marques</h1>
                     </a>
@@ -207,88 +138,82 @@
             </div>
 
             <div class="footer_area">
-                <div class="areaitem">
+                <div class="area_item">
                     <div class="widget_title">
-                        <div class="widget_title_text">
-                            <p id="corname">Contatos:</p>
-                        </div>
+                        <p class="widget_title_text">Contatos:</p>
                         <div class="widget_title_bar"></div>
                     </div>
-                    <div class="area_body2">
-                        <li class="item">
+                    <ul >
+                        <li>
                             <a href="https://www.instagram.com/laillagaleno/">
                                 <i class="fa-brands fa-instagram icon"></i>
                             </a>
                         </li>
 
-                        <li class="item">
+                        <li>
                             <a href="#">
                                 <i class="fa-brands fa-linkedin icon"></i>
                             </a>
                         </li>
 
-                        <li class="item">
+                        <li>
                             <a href="">
                                 <i class="fa-brands fa-x-twitter icon"></i>
                             </a>
                         </li>
-                    </div>
+                    </ul>
                 </div>
 
-                <div class="areaitem">
+                <div class="area_item">
                     <div class="widget_title">
-                        <div class="widget_title_text">
-                            <p id="corname">Contatos:</p>
-                        </div>
+                        <p class="widget_title_text">Contatos:</p>
                         <div class="widget_title_bar"></div>
                     </div>
-                    <div class="area_body2">
-                        <li class="item">
+                    <ul >
+                        <li>
                             <a href="https://www.instagram.com/jhooy___felipe/">
                                 <i class="fa-brands fa-instagram icon"></i>
                             </a>
                         </li>
 
-                        <li class="item">
+                        <li>
                             <a href="#">
                                 <i class="fa-brands fa-linkedin icon"></i>
                             </a>
                         </li>
 
-                        <li class="item">
+                        <li>
                             <a href="https://twitter.com/Jhooy____">
                                 <i class="fa-brands fa-x-twitter icon"></i>
                             </a>
                         </li>
-                    </div>
+                    </ul>
                 </div>
 
-                <div class="areaitem">
+                <div class="area_item">
                     <div class="widget_title">
-                        <div class="widget_title_text">
-                            <p id="corname">Contatos:</p>
-                        </div>
+                        <p class="widget_title_text">Contatos:</p>
                         <div class="widget_title_bar"></div>
                     </div>
-                    <div class="area_body2">
-                        <li class="item">
+                    <ul >
+                        <li>
                             <a href="https://www.instagram.com/_mi.kal/">
                                 <i class="fa-brands fa-instagram icon"></i>
                             </a>
                         </li>
 
-                        <li class="item">
+                        <li>
                             <a href="#">
                                 <i class="fa-brands fa-linkedin icon"></i>
                             </a>
                         </li>
 
-                        <li class="item">
+                        <li>
                             <a href="">
                                 <i class="fa-brands fa-x-twitter icon"></i>
                             </a>
                         </li>
-                    </div>
+                    </ul>
                 </div>
             </div>
             <div class="footer_copy">
@@ -296,7 +221,8 @@
             </div>
         </div>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/noticias.js"></script>
 </body>
 
 </html>

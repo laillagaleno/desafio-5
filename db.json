@@ -1,0 +1,84 @@
+{
+    "noticias": [
+      {
+        "id": 1,
+        "titulo": "Festa do Bumba Meu Boi em São Luís",
+        "descricao": "A tradicional festa do Bumba Meu Boi, que acontece anualmente em São Luís, atrai milhares de visitantes com suas cores vibrantes e danças folclóricas.",
+        "url": "https://blog.blablacar.com.br/eventos/bumba-meu-boi#:~:text=Eventos%20do%20S%C3%A3o%20Jo%C3%A3o%202024%20no%20Maranh%C3%A3o,-Bumba%2DMeu%2DBoi&text=O%20Bumba%2DMeu%2DBoi%20%C3%A9,de%20m%C3%BAsica%20t%C3%ADpica%20do%20Maranh%C3%A3o.",
+        "imagem": "https://static.todamateria.com.br/upload/bo/ib/boibumba-cke.jpg",
+        "data": "24 de junho de 2024"
+      },
+      {
+        "id": 2,
+        "titulo": "Culinária Maranhense: Sabores e Tradições",
+        "descricao": "Descubra os sabores únicos da culinária maranhense, com pratos como arroz de cuxá, torta de camarão e doce de espécie.",
+        "url": "https://www.tudogostoso.com.br/noticias/culinaria-maranhense-a5394.htm",
+        "imagem": "https://static.itdg.com.br/images/auto-auto/3b12fd7f66a7949342a4201a38369966/culinaria-maranhense.jpg",
+        "data": "15 de julho de 2024"
+      },
+      {
+        "id": 3,
+        "titulo": "As Belezas Naturais dos Lençóis Maranhenses",
+        "descricao": "Explore as belezas naturais dos Lençóis Maranhenses, um dos destinos turísticos mais famosos do estado.",
+        "url": "https://agro2.com.br/meio-ambiente/lencois-maranhenses-e-reconhecido-como-patrimonio-mundial-pela-unesco/#:~:text=Os%20Len%C3%A7%C3%B3is%20Maranhenses%20foram%20reconhecidos,pela%20varia%C3%A7%C3%A3o%20do%20len%C3%A7ol%20fre%C3%A1tico.",
+        "imagem": "https://agro2.com.br/wp-content/uploads/2024/07/Dunas-de-areias.jpg",
+        "data": "30 de junho de 2024"
+      },
+      {
+        "id": 4,
+        "titulo": "Artesanato Maranhense: Tradição e Criatividade",
+        "descricao": "Conheça o artesanato maranhense, que reflete a rica cultura e criatividade dos artesãos locais.",
+        "url": "https://g1.globo.com/ma/maranhao/noticia/2018/09/08/pecas-do-artesanato-celebram-tradicao-e-cultura-dos-406-anos-de-sao-luis.ghtml",
+        "imagem": "https://s2-g1.glbimg.com/oMCNKNXjKqTx32vnfVpvby2w9Yw=/0x43:1280x718/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/g/n/f6cokzQIi801GgRiyeFg/whatsapp-image-2018-09-06-at-11.11.48-1-.jpeg",
+        "data": "10 de julho de 2024"
+      },
+      {
+        "id": 5,
+        "titulo": "Festejo de São João no Maranhão",
+        "descricao": "A festa de São João no Maranhão é marcada por danças típicas, fogueiras e quadrilhas, celebrando uma das mais importantes tradições culturais do estado.",
+        "url": "https://www.youtube.com/watch?v=example5",
+        "imagem": "https://example.com/imagem5.jpg",
+        "data": "24 de junho de 2024"
+      },
+      {
+        "id": 6,
+        "titulo": "Música Maranhense: Riqueza e Diversidade",
+        "descricao": "A música maranhense é um reflexo da diversidade cultural do estado, com ritmos que vão do reggae ao tambor de crioula.",
+        "url": "https://www.youtube.com/watch?v=example6",
+        "imagem": "https://example.com/imagem6.jpg",
+        "data": "5 de julho de 2024"
+      },
+      {
+        "id": 7,
+        "titulo": "História de Alcântara: Patrimônio e Cultura",
+        "descricao": "Alcântara, uma cidade histórica do Maranhão, é conhecida por suas ruínas coloniais e sua rica herança cultural.",
+        "url": "https://www.youtube.com/watch?v=example7",
+        "imagem": "https://example.com/imagem7.jpg",
+        "data": "20 de julho de 2024"
+      },
+      {
+        "id": 8,
+        "titulo": "Dança do Cacuriá: Tradição Maranhense",
+        "descricao": "O cacuriá é uma dança tradicional do Maranhão que envolve movimentos ritmados e uma música contagiante.",
+        "url": "https://www.youtube.com/watch?v=example8",
+        "imagem": "https://example.com/imagem8.jpg",
+        "data": "8 de julho de 2024"
+      },
+      {
+        "id": 9,
+        "titulo": "Patrimônio Arquitetônico de São Luís",
+        "descricao": "São Luís, conhecida como a 'Cidade dos Azulejos', possui um patrimônio arquitetônico rico e bem preservado.",
+        "url": "https://www.youtube.com/watch?v=example9",
+        "imagem": "https://example.com/imagem9.jpg",
+        "data": "12 de julho de 2024"
+      },
+      {
+        "id": 10,
+        "titulo": "Festival de Jazz e Blues de Lençóis",
+        "descricao": "O Festival de Jazz e Blues de Lençóis é um evento que reúne músicos de todo o mundo em um cenário natural deslumbrante.",
+        "url": "https://www.youtube.com/watch?v=example10",
+        "imagem": "https://example.com/imagem10.jpg",
+        "data": "18 de julho de 2024"
+      }
+    ]
+  }

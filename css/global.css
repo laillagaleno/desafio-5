@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
+    list-style: none;
 }
 
 :root{
@@ -13,6 +14,7 @@
 
     --blue-100: #F5F8FF;
     --blue-200: #e4ecff;
+    --blue-400: #2a72ff;
     --blue-500: #0052F5;
     --blue-600: #0E4AC4;
     --blue-700: #00308F;
