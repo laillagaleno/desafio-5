@@ -120,27 +120,25 @@ nav a:hover {
 .headline_text h4 {
   font-size: 1.6rem;
   font-weight: 500;
-  font-color: #333;
+  color: #333;
   text-transform: uppercase;
 }
 
 .headline_text h2 {
   font-size: 4.8rem;
   font-weight: 900;
-  font-color: #333;
+  color: #333;
   text-transform: uppercase;
 
-  background: linear-gradient(
-    to right,
-    #d32730 5%,
-    #fb051e 20%,
-    #00659a 30%,
-    #004289 45%,
-    #009d3f 55%,
-    #00b148 70%,
-    #ffc100 80%,
-    #ff9600 100%
-  );
+  background: linear-gradient(to right,
+      #d32730 5%,
+      #fb051e 20%,
+      #00659a 30%,
+      #004289 45%,
+      #009d3f 55%,
+      #00b148 70%,
+      #ffc100 80%,
+      #ff9600 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -198,6 +196,7 @@ nav a:hover {
   flex: 1;
   padding-bottom: 5px;
 }
+
 /* ================================= main section =================================*/
 
 #geral {
@@ -332,12 +331,13 @@ article .news_resume {
   margin-bottom: 30px;
 }
 
-.mensagem__titulo{
+.mensagem__titulo {
   font-size: 14px;
   font-weight: 400;
   color: #333;
   white: 100%;
 }
+
 /*============================= Footer =============================*/
 
 footer {
@@ -388,8 +388,7 @@ footer {
   flex: 1;
 }
 
-.area_item ul{
-}
+.area_item ul {}
 
 
 
@@ -473,7 +472,7 @@ footer {
 
 .area_item li:nth-child(3) {
   --bg-color: #000;
-} 
+}
 
 /*=============================== responsividade ================*/
 
