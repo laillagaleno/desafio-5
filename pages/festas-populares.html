@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/conteudo.css">
     <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/pages.css">
 </head>
 
 <body>
@@ -38,51 +39,27 @@
         </div>
     </header>
     <main>
-        <section id="banner">
-            <div class="container column">
-                <div class="banner_headline">
-                    <div class="headline_text">
-                        <h4>Vem conhecer nosso</h4>
-                        <h2>MARANHÃO</h2>
-
-                    </div>
-
-                    <img src="/img/capa.png" alt="menina conhecendo a cultura maranhense">
-                </div>
-
-                <div class="banner_options">
-                    <div class="banner1">
-                        <div class="banner_title">Do maranhão para o mundo!</div>
-                        <div class="banner_desc">Este site tem como objetivo tornar o maranhão mais conhecido mundo a
-                            fora, e contém diversos materiais escolhidos a dedo para tornar a suas experiência pelo
-                            Maranhão mais incrivel que ela jamais poderia ser ! Divirta-se</div>
-
-                    </div>
-                    <div class="banner2">
-                        <div class="banner_title">Explore cada parte!</div>
-                        <div class="banner_desc"> Desde pontos turisticos, até pratos caracteristicos do Maranhão,
-                            conheça cada parte dessa cultura diversa e histórica que envolve o nosso estado!</div>
-
-                    </div>
-                    <div class="banner3">
-                        <div class="banner_title">Idealizadores</div>
-                        <div class="banner_desc">
-                            <div class="banner_table1">Felipe Silva</div>
-                        </div>
-                        <div class="banner_desc">
-                            <div class="banner_table1">Lailla Galeno</div>
-                        </div>
-                        <div class="banner_desc">
-                            <div class="banner_table1">Miqueias Marques</div>
-                        </div>
-                    </div>
-                </div>
-
+        <div class="cabecalho">
+            <div class="cabecalho_texto">
+                <h2>Descubra as principais <br> festas populares no Maranhão</h2>
+                <p>
+                    As festas do Maranhão tem grandes influências de matrizes africanas de um periodo mais antigo da
+                    história.
+                </p>
             </div>
+
+            <div class="pesquisar">
+                <input type="search" placeholder="Pesquise mais sobre as festas..." id="pesquisar"
+                    class="pesquisar__input" data-pesquisa>
+                <button class="pesquisar__botao" data-botao-pesquisa>
+                    <i class="fa-solid fa-search"></i>
+                </button>
+            </div>
+        </div>
         </section>
         <section class="conteudo_texto">
             <h1 class="titulo">FESTAS POPULARES</h1>
-            <p class="conteudo">
+            <p class="conteudo_festa">
                 A cultura maranhense é um mosaico vibrante e multifacetado que reflete a rica história e a diversidade
                 étnica do estado do Maranhão, localizado no nordeste do Brasil. Conhecida por suas festas tradicionais,
                 a cultura do Maranhão é fortemente influenciada por elementos indígenas, africanos e europeus. Entre os
@@ -118,5 +95,109 @@
             </ul>
         </section>
     </main>
+    <footer>
+        <div class="container column">
+            <div class="footer_menu">
+                <div id="fm1">
+                    <a href="">
+                        <h1>Lailla Galeno</h1>
+                    </a>
+                </div>
+                <div id="fm2">
+                    <a href="">
+                        <h1>Felipe Silva</h1>
+                    </a>
+                </div>
+                <div id="fm3">
+                    <a href="">
+                        <h1>Miqueias Marques</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="area_item">
+                    <div class="widget_title">
+                        <p class="widget_title_text">Contatos:</p>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/laillagaleno/">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-x-twitter icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="area_item">
+                    <div class="widget_title">
+                        <p class="widget_title_text">Contatos:</p>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/jhooy___felipe/">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/Jhooy____">
+                                <i class="fa-brands fa-x-twitter icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="area_item">
+                    <div class="widget_title">
+                        <p class="widget_title_text">Contatos:</p>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/_mi.kal/">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-x-twitter icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright &copy Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
     <script src="../js/menu.js"></script>
 </body>

@@ -1,5 +1,7 @@
-.conteudo {
+.conteudo_festa {
     display: flex;
+    flex-direction: column;
+    gap: 5vh;
     justify-content: center;
     align-items: center;
     text-align: center;
