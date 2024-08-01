@@ -80,5 +80,104 @@
         "imagem": "https://example.com/imagem10.jpg",
         "data": "18 de julho de 2024"
       }
+    ],
+
+    "culinaria":[
+      {
+        "id": 1,
+        "titulo": "Como Fazer Bode no Leite de Coco",
+        "descricao": "5 mil visualizações",
+        "url": "https://www.youtube.com/embed/W-zWuvaddUM?si=8oc6L7ih5dpfr-QP",
+        "imagem": "https://yt3.googleusercontent.com/qcmNO_rYyGCg0GuDdy5EeFTiTmZWHryVTCLumINe-ihVYgWXl-92pzAaaRZVMBz8Q9azPeHVC7s=s900-c-k-c0x00ffffff-no-rj",
+        "categoria": "Prato"
+      },
+      {
+        "id": 2,
+        "titulo": "Costela com Macaxeira - Levanta Imunidade",
+        "descricao": "4.5 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=zcgL30ngqWA",
+        "imagem": "https://yt3.ggpht.com/ytc/AIdro_kxEEhKM_htVVNLQBCunzfwauw2PGA7s1tEu1zgKeT09JWq=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Prato"
+      },
+      {
+        "id": 3,
+        "titulo": "Como fazer Carne de Sol em casa",
+        "descricao": "7 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=PcyOagOuuB4",
+        "imagem": "https://yt3.ggpht.com/SiWH80heUJYhezd_tCcdhD83ScZ7-7qQbi4Fvr9sETsT-1kdZ7F6S1SeZjfJUJsDl85yZlBRhg=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Carne"
+      },
+      {
+        "id": 4,
+        "titulo": "Como Fazer Arroz com Fava",
+        "descricao": "6 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=v5ktRQ24Di4",
+        "imagem": "https://yt3.ggpht.com/ytc/AIdro_kxEEhKM_htVVNLQBCunzfwauw2PGA7s1tEu1zgKeT09JWq=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Arroz"
+      },
+      {
+        "id": 5,
+        "titulo": "Cozidão Maranhense: Passo a Passo",
+        "descricao": "3.5 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=jBvv_6Ya_jQ",
+        "imagem": "https://yt3.ggpht.com/ZullU6zsI62TfQQgfeSk0c913NCU_flenjx8NdLIz7yep1HCLu3VwbmGXNJfbkDeWCPGhz-U1A=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Carne"
+      },
+      {
+        "id": 6,
+        "titulo": "Caldeirada de Sururu do Maranhão",
+        "descricao": "4 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=_ihBth7PKmA",
+        "imagem": "https://yt3.ggpht.com/rJrN7joLDdB24PFdSz_yFwfc2yQmctiSYuKS-3XMuPJCI5jpRCcybmlMF5Ij8uS50Bl_gonk3g=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Prato"
+      },
+      {
+        "id": 7,
+        "titulo": "Como fazer Arroz de Cuxá - Maranhense",
+        "descricao": "5.5 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=F15-zl6xanM",
+        "imagem": "https://yt3.ggpht.com/ytc/AIdro_kxEEhKM_htVVNLQBCunzfwauw2PGA7s1tEu1zgKeT09JWq=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Arroz"
+      },
+      {
+        "id": 8,
+        "titulo": "Como Fazer Arroz com Abóbora",
+        "descricao": "4.2 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=6M2k2_R9mJU",
+        "imagem": "https://yt3.ggpht.com/DmLTo2WoRX-4j7mv2GyXf67e5pQOU3e-nn6FP_GR8Lux50LmKOU4g0J_Wjfz7Qld6a4jlC4Tk9c=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Arroz"
+      },
+      {
+        "id": 9,
+        "titulo": "Maravilhas do Maranhão: Arroz Maria Isabel",
+        "descricao": "6.3 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=3ndjeAmO8Rc",
+        "imagem": "https://yt3.ggpht.com/tLWBx4lNzP3W7Kara2LBF4AaBWNmuzFluL-MiloqoKTuArSgRW9EpTy_JvJwkfR6ULiwpvHi=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Arroz"
+      },
+      {
+        "id": 10,
+        "titulo": "Prato típico quilombola Chibé Maranhão",
+        "descricao": "5.8 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=lcTlykoJr54",
+        "imagem": "https://yt3.ggpht.com/ytc/AIdro_mNnPSUwZd6iijtdlAKdECKVY1vnqdXER5qRJb6iL-F0Hs=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Prato"
+      },
+      {
+        "id": 11,
+        "titulo": "Carne de panela | Clássicos do dia-a-dia",
+        "descricao": "7.1 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=X-Vi2JUdUG8",
+        "imagem": "https://yt3.ggpht.com/0Xsifuqko8Ho8YcLXJjSsO3H4LC5DIkJiC8rW5OtxY_Zuhgy2RSUnQv8KHHKY310e-0qxrnX=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Carne"
+      },
+      {
+        "id": 12,
+        "titulo": "Peixe Tilápia ao Molho de Coco e Creme de Leite",
+        "descricao": "6.5 mil visualizações",
+        "url": "https://www.youtube.com/watch?v=zBu8fM5g6v4&list=PLh7gA2EA6lwon6-SlOyGpiUcC-5hdaLP7&index=31",
+        "imagem": "https://yt3.ggpht.com/ouDRNcFshWvyxaUnpeg2wVXZgy1LeMYttYvwbe1M9lFLteoqnDlbkpiCOZj9ZDZnOQvP-AkoIA=s48-c-k-c0x00ffffff-no-rj",
+        "categoria": "Carne"
+      }
     ]
   }

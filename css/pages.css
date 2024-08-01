@@ -1,0 +1,78 @@
+.conteudo {
+    display: flex;
+    width: 60vw;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 10vh;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.cabecalho_texto h2{
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.25;
+    text-align: center;
+
+    font-size: 48px;
+    line-height: 68px;
+    color: var(--blue-500);
+}
+
+.cabecalho_texto p{
+    max-width: 565px;
+    margin: 24px auto;
+    color: #3d3d4e;
+    font-weight: 400;
+    line-height: 28px;
+}
+.pesquisar{
+    width: 80%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+}
+
+.pesquisar__input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 6px 24px;
+    border: 1px solid var(--blue-200);
+    border-radius: 100px 0 0 100px;
+}
+
+.pesquisar__input:focus {
+    outline-color: var(--blue-500);
+}
+
+.pesquisar__botao {
+    width: 56px;
+    height: 100%;
+    border: 1px solid var(--blue-200);
+    border-radius: 0 100px 100px 0;
+
+    background-color: var(--blue-500);
+    color: var(--white);
+
+    font-size: 16px;
+    border-left: none;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.pesquisar__botao:hover {
+    background-color: var(--blue-600);
+}

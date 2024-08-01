@@ -71,11 +71,11 @@ nav a {
   font-size: 12px;
 }
 
-nav .active a,
-nav a:hover {
+.active, nav a:hover {
   background-color: var(--blue-500);
   color: #fff;
   border-radius: 8px;
+  font-weight: 600;
 }
 
 /* ========================== Main Banner ==============================*/
@@ -384,9 +384,6 @@ footer {
 .area_item ul{
 }
 
-
-
-
 .footer_copy {
   color: #5c5c5c;
   border-top: 1px solid #2c2c2c;
@@ -398,21 +395,22 @@ footer {
 
 .menu_mobile {
   display: none;
-  padding: 8px;
-  gap: 6px;
-  width: 38px;
+  padding: 6px;
   cursor: pointer;
+  color: var(--blue-500);
+  border-radius: 4px;
+  transition: 0.5s ease;
 }
 
+.menu_mobile i{
+  font-size: 1.5rem;
+}
 .menu_mobile:hover {
   border-radius: 4px;
   background-color: var(--blue-200);
 }
 
-.mm_line {
-  height: 2px;
-  background-color: var(--blue-500);
-}
+
 
 .area_item li a {
   text-decoration: none;
@@ -477,7 +475,6 @@ footer {
 
   .menu_mobile{
     display: flex;
-    flex-direction: column;
   }
   .banner_headline {
     flex-direction: column;
@@ -589,7 +586,5 @@ footer {
 
   .menu_mobile {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
   }
 }
