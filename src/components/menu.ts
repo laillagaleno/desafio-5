@@ -16,7 +16,7 @@ window.onload = function () {
     const path = url.pathname;
     const menu = document.querySelectorAll(".menu nav ul li a");
     menu.forEach(function (item) {
-        if (item.getAttribute("href").slice(1) == "/" + path.split('/').pop()) {
+        if (item.getAttribute("href") == path) {
             item.classList.add("active");
         }
     });

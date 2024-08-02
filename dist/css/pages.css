@@ -130,6 +130,32 @@
 }
 
 
+.conteudo_festa {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.conteudo_texto {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.imagens {
+    margin-top: 2vh;
+    width: 40%;
+}
 /*============================= Responsividade =============================*/
 
 @media(min-width: 834px) {
