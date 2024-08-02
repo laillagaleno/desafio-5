@@ -16,6 +16,9 @@ window.onload = function () {
     const path = url.pathname;
     const menu = document.querySelectorAll(".menu nav ul li a");
     menu.forEach(function (item) {
+
+        console.log(item.getAttribute("href"), path);
+    
         if (item.getAttribute("href") == path) {
             item.classList.add("active");
         }
