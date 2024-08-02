@@ -89,7 +89,7 @@
         "descricao": "5 mil visualizações",
         "url": "https://www.youtube.com/embed/W-zWuvaddUM?si=8oc6L7ih5dpfr-QP",
         "imagem": "https://yt3.ggpht.com/ytc/AIdro_kxEEhKM_htVVNLQBCunzfwauw2PGA7s1tEu1zgKeT09JWq=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Prato"
+        "categoria": "prato"
       },
       {
         "id": 2,
@@ -97,7 +97,7 @@
         "descricao": "4.5 mil visualizações",
         "url": "https://www.youtube.com/embed/zcgL30ngqWA?si=ed0Wc-ZRRH0tajqr",
         "imagem": "https://yt3.ggpht.com/ytc/AIdro_kxEEhKM_htVVNLQBCunzfwauw2PGA7s1tEu1zgKeT09JWq=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Prato"
+        "categoria": "prato"
       },
       {
         "id": 3,
@@ -105,7 +105,7 @@
         "descricao": "7 mil visualizações",
         "url": "https://www.youtube.com/embed/PcyOagOuuB4?si=o21StWkqMjzbUM8c",
         "imagem": "https://yt3.ggpht.com/SiWH80heUJYhezd_tCcdhD83ScZ7-7qQbi4Fvr9sETsT-1kdZ7F6S1SeZjfJUJsDl85yZlBRhg=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Carne"
+        "categoria": "carne"
       },
       {
         "id": 4,
@@ -113,7 +113,7 @@
         "descricao": "6 mil visualizações",
         "url": "https://www.youtube.com/embed/v5ktRQ24Di4?si=RwM4Pnf5CgIeSVIZ",
         "imagem": "https://yt3.ggpht.com/ytc/AIdro_kxEEhKM_htVVNLQBCunzfwauw2PGA7s1tEu1zgKeT09JWq=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Arroz"
+        "categoria": "arroz"
       },
       {
         "id": 5,
@@ -121,7 +121,7 @@
         "descricao": "3.5 mil visualizações",
         "url": "https://www.youtube.com/embed/jBvv_6Ya_jQ?si=vHPVIDzZ1KT0i_vv",
         "imagem": "https://yt3.ggpht.com/ZullU6zsI62TfQQgfeSk0c913NCU_flenjx8NdLIz7yep1HCLu3VwbmGXNJfbkDeWCPGhz-U1A=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Carne"
+        "categoria": "carne"
       },
       {
         "id": 6,
@@ -129,7 +129,7 @@
         "descricao": "4 mil visualizações",
         "url": "https://www.youtube.com/embed/_ihBth7PKmA?si=vSqbmkCgPfGp57Ju",
         "imagem": "https://yt3.ggpht.com/rJrN7joLDdB24PFdSz_yFwfc2yQmctiSYuKS-3XMuPJCI5jpRCcybmlMF5Ij8uS50Bl_gonk3g=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Prato"
+        "categoria": "prato"
       },
       {
         "id": 7,
@@ -137,7 +137,7 @@
         "descricao": "5.5 mil visualizações",
         "url": "https://www.youtube.com/embed/F15-zl6xanM?si=d0QvLbaXZuemagPn",
         "imagem": "https://yt3.ggpht.com/ytc/AIdro_kxEEhKM_htVVNLQBCunzfwauw2PGA7s1tEu1zgKeT09JWq=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Arroz"
+        "categoria": "arroz"
       },
       {
         "id": 8,
@@ -145,7 +145,7 @@
         "descricao": "4.2 mil visualizações",
         "url": "https://www.youtube.com/embed/6M2k2_R9mJU?si=gelER0weVzBwlDW6",
         "imagem": "https://yt3.ggpht.com/DmLTo2WoRX-4j7mv2GyXf67e5pQOU3e-nn6FP_GR8Lux50LmKOU4g0J_Wjfz7Qld6a4jlC4Tk9c=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Arroz"
+        "categoria": "arroz"
       },
       {
         "id": 9,
@@ -153,15 +153,15 @@
         "descricao": "6.3 mil visualizações",
         "url": "https://www.youtube.com/embed/3ndjeAmO8Rc?si=500eGZPMBKKGB5zY",
         "imagem": "https://yt3.ggpht.com/tLWBx4lNzP3W7Kara2LBF4AaBWNmuzFluL-MiloqoKTuArSgRW9EpTy_JvJwkfR6ULiwpvHi=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Arroz"
+        "categoria": "arroz"
       },
       {
         "id": 10,
-        "titulo": "Prato típico quilombola Chibé Maranhão",
+        "titulo": "prato típico quilombola Chibé Maranhão",
         "descricao": "5.8 mil visualizações",
         "url": "https://www.youtube.com/embed/lcTlykoJr54?si=36deskR4nXkk4poH",
         "imagem": "https://yt3.ggpht.com/ytc/AIdro_mNnPSUwZd6iijtdlAKdECKVY1vnqdXER5qRJb6iL-F0Hs=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Prato"
+        "categoria": "prato"
       },
       {
         "id": 11,
@@ -169,7 +169,7 @@
         "descricao": "7.1 mil visualizações",
         "url": "https://www.youtube.com/embed/X-Vi2JUdUG8?si=0ZKMmRVcKffKWOvZ",
         "imagem": "https://yt3.ggpht.com/0Xsifuqko8Ho8YcLXJjSsO3H4LC5DIkJiC8rW5OtxY_Zuhgy2RSUnQv8KHHKY310e-0qxrnX=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Carne"
+        "categoria": "carne"
       },
       {
         "id": 12,
@@ -177,7 +177,7 @@
         "descricao": "6.5 mil visualizações",
         "url": "https://www.youtube.com/embed/zBu8fM5g6v4?si=TXHXcPoc8I1ZytOa",
         "imagem": "https://yt3.ggpht.com/ouDRNcFshWvyxaUnpeg2wVXZgy1LeMYttYvwbe1M9lFLteoqnDlbkpiCOZj9ZDZnOQvP-AkoIA=s48-c-k-c0x00ffffff-no-rj",
-        "categoria": "Carne"
+        "categoria": "carne"
       }
     ]
   }

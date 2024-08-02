@@ -1,9 +1,12 @@
 window.onload = function () {
     document.querySelector(".menu_mobile").addEventListener("click", function () {
-        if (document.querySelector(".menu nav ul").style.display == "flex") {
-            document.querySelector(".menu nav ul").style.display = "none";
+
+        const elementUl = document.querySelector(".menu nav ul") as HTMLElement;
+        
+        if (elementUl.style.display == "flex") {
+            elementUl.style.display = "none";
         } else {
-            document.querySelector(".menu nav ul").style.display = "flex";
+            elementUl.style.display = "flex";
         }
     });
 
@@ -13,7 +16,7 @@ window.onload = function () {
     const path = url.pathname;
     const menu = document.querySelectorAll(".menu nav ul li a");
     menu.forEach(function (item) {
-        if (item.getAttribute("href") == path) {
+        if (item.getAttribute("href").slice(1) == "/" + path.split('/').pop()) {
             item.classList.add("active");
         }
     });

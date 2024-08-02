@@ -1,6 +1,6 @@
 const containerNoticias = document.querySelector(".noticias_container");
 
-function contruirCard(titulo, descrição, url, imagem, data) {
+function contruirCardNoticia(titulo: string, descrição: string, url:string, imagem:string, data: string) {
   const noticia = document.createElement("article");
   noticia.innerHTML = `
         <div class="news_data">
@@ -33,9 +33,15 @@ async function noticiasRecentes(quantidade = 4) {
 
     const noticiasFiltradas = noticias.slice(0, quantidade);
 
-    noticiasFiltradas.forEach((element) =>
+    noticiasFiltradas.forEach((element:{
+      titulo: string,
+      descricao: string,
+      url: string,
+      imagem: string,
+      data: string
+    }) =>
       containerNoticias.appendChild(
-        contruirCard(
+        contruirCardNoticia(
           element.titulo,
           element.descricao,
           element.url,
