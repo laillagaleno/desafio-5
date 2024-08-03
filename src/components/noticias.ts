@@ -1,4 +1,3 @@
-window.onload = function () {
   const containerNoticias = document.querySelector(".noticias_container");
 
   function contruirCardNoticia(
@@ -62,6 +61,4 @@ window.onload = function () {
       containerNoticias.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeos</h2>`;
     }
   }
-
-  noticiasRecentes(4);
-};
+noticiasRecentes(4);
